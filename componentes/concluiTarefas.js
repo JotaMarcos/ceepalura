@@ -9,12 +9,13 @@ const BotaoConclui = () => {
     return botaoConclui 
 }
     
-concluirTarefa = (evento) => {
+const concluirTarefa = (evento) =>{
     const botaoConclui = evento.target
-
+    
     const tarefaCompleta = botaoConclui.parentElement
 
     tarefaCompleta.classList.toggle('done')
 }
+
 
 export default BotaoConclui

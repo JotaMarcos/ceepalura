@@ -15,7 +15,7 @@ import BotaoDeleta from './componentes/deletaTarefa.js'
 
     tarefa.innerHTML = conteudo
 
-    tarefa.appendChild(conclui.BotaoConclui())
+    tarefa.appendChild(BotaoConclui())
     tarefa.appendChild(BotaoDeleta())
     lista.appendChild(tarefa)
     input.value = " "
